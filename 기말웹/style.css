@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    line-height: 1;
+    animation: changeBackground 10s infinite; /* 3초마다 반복 */
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*word-break:keep-all;*/
+    animation: changeText 10s infinite; /* 3초마다 반복 */
+    
+}
+
+a{
+    color: #4FADFF;
+}
+#tittle{
+    width: 87.24vw;
+    border: 10px;
+    margin-left: 6.38vw;
+    margin-top: 13vh;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: #4FADFF;
+    
+}
+
+#text {
+    width: 87.24vw;
+    border: 10px;
+    margin-left: 6.38vw;
+    margin-top: 5vh;
+    border-color: black;
+}
+
+.tbox{
+    margin-bottom: 3vh;
+}
+
+.ibox{
+    margin-bottom: 1vh;
+    width: 87.4vw;
+    overflow: hidden;
+    justify-content: center;
+}
+.ibox img {
+    width: 100%; /* 이미지 크기 100% */
+    height: 100%; /* 이미지 크기 100% */
+    object-fit: cover; /* 비율 유지하면서 div 크기에 맞게 잘라짐 */
+    justify-content: center;
+}
+
+.ltbox{
+    margin-top: 1vh;
+    width: 87.24vw;
+    text-align: center;
+    
+}
+
+p2 {
+    font-size:16px;
+    line-height: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4FADFF;
+}
+
+p3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*word-break:keep-all;*/
+    
+}
+.e2box {
+    margin-bottom: 0vh;
+    margin-top: 1px;
+}
+
+
+
+
+@keyframes changeBackground {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: white;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+@keyframes changeText {
+    0% {
+        color: white;
+    }
+    50% {
+        color: black;
+    }
+    100% {
+        color: white;
+    }
+}
+ul{
+    margin-left: 6.38vw;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+li{
+    margin-bottom: 2px;
+}
